@@ -1,0 +1,22 @@
+.home {
+  background: darkcyan;
+  color: #fff;
+  background: url("./bg.jpg") center/cover;
+  height: calc(100vh - 50px);
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+  animation: circle 5s infinite ease-in-out;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
